@@ -32,4 +32,4 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=razorg BUILD_FINGERPRINT=google/razorg/deb:4.4.2/KVT49L/979340:user/release-keys PRIVATE_BUILD_DESC="razorg-user 4.4.2 KVT49L 979340 release-keys"
 
-TARGET_TOOLS_PREFIX ?= prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-linaro/bin/arm-linux-androideabi-
+KERNEL_TOOLCHAIN_PREFIX ?= $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7-linaro/bin/arm-linux-androideabi-
